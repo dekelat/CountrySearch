@@ -1,0 +1,97 @@
+body {
+    background: radial-gradient(circle, rgba(157,136,173,1) 0%, rgba(155,123,179,1) 100%);
+}
+.header {
+    text-align: center;
+    margin-top: 30px;
+}
+.header h1 {
+    font-family: 'Abril Fatface', Times, serif;
+    color: rgb(216, 216, 216);
+    font-size: 80px;
+}
+.header img {
+    width: 70px;
+    height: 70px;
+}
+.form {
+    text-align: center;
+    margin-top: 10px;
+}
+.form button{
+    background-color: #4d1b75;
+    outline: none;
+}
+.form button:hover{
+    background-color: #6e3d95;
+    outline: none;
+}
+.search {
+    margin: 10px 0px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search input {
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+     border: none;
+     padding: 5px;
+}
+.search button {
+     border-top-left-radius: 0px;
+     border-bottom-left-radius: 0px;
+     border: none;
+}
+.main-container {
+    margin: 15px;
+    text-align: center;
+}
+.country-card {
+    background: white;
+    border-radius: 10px;
+    margin: 15px;
+    width: 320px;
+    vertical-align: top;
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #4d1b75;
+    animation: fadein 2s;
+    height: 450px;
+}
+.details{
+    text-align: left;
+    padding: 5px 5px 0px 5px;
+    height: 165px;
+    overflow: auto;
+    word-wrap: break-word;
+    overflow-x: hidden;
+}
+.flag {
+    overflow: auto;
+}
+.flag img{
+    width: 295px;
+    height: 206px;
+}
+/* p, ul {
+    display: inline;
+} */
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+#reminder {
+    display: none;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+  
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.4);
+}
